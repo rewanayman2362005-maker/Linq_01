@@ -7,6 +7,7 @@ namespace rewan
     {
         static void Main(string[] args)
         {
+            
             // 1. Get all products from the "Seafood" category
             var q1 = ProductList.Where(p => p.Category == "Seafood");
             foreach (var p in q1)
